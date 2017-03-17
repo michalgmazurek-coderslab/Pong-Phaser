@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
     function create() {
-        game.stage.backgroundColor = '#333 ';
+        game.stage.backgroundColor = '#666';
         paddle1 = createPaddle(0, game.world.centerY);
         paddle2 = createPaddle(game.world.width - 3, game.world.centerY);
         ballLaunched = false;
