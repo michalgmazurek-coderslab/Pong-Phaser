@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             launchBall();
         }
        
-        paddle2.body.velocity.setTo(ball.body.velocity.y-40);
+        paddle2.body.velocity.setTo(ball.body.velocity.y-50);
         paddle2.body.velocity.x = 0;
         paddle2.body.maxVelocity.y = 700;
         paddle1.scale.setTo(0.7, 0.7);
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         
          if (score1 > 0) {
             ballVelocity = 500;
-             paddle2.body.velocity.setTo(ball.body.velocity.y-50);
+             paddle2.body.velocity.setTo(ball.body.velocity.y-52);
              paddle2.body.velocity.x = 0;
         }
         if (score1 > 1) {
