@@ -9,6 +9,12 @@ body {
     -webkit-animation: AnimationName 30s ease infinite;
     -o-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
     @-webkit-keyframes AnimationName {
         0% {
@@ -44,9 +50,8 @@ body {
         }
     }
     canvas {
-        display: block;
-        margin: auto;
-        margin-top: 10vh;
-        transform: translateY( -3%);
-        width: 98vw;
+        /*display: block;*/
+        /*margin: auto;*/
+        /*margin-top: 10vh;*/
+        /*transform: translateY( -3%);*/
     }
