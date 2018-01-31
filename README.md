@@ -1,5 +1,5 @@
 # Pong-Phaser
-My Project: https://michalgmazurek-coderslab.github.io/Pong-Phaser/
+My Project: https://michalgmazurek.github.io/Pong-Phaser/
 <br><br>
 Sound: https://www.freesound.org/people/zagi2/sounds/339124/
 <br>
